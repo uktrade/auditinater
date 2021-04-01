@@ -33,7 +33,7 @@ LOGGING = botlogging.config
 VCAP_SERVICES = json.loads(os.environ.get('VCAP_SERVICES', "{}"))
 
 DEBUG = False
-if config("DEBUG_ENABLED", default=0, cast=int) == 1:
+if config("DEBUG_ENABLED", default=0, cast=int):
     sys.stderr.write("DEBUG_ENABLED=1 is set in environment!\n")
     DEBUG = True
 
