@@ -9,4 +9,4 @@ from auditinater.botlogging import log_setup
 def log():
     """Set up logging as a pytest fixture."""
     log_setup()
-    return logging.getLogger('auditinater')
+    return logging.getLogger('audit-test')
