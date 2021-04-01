@@ -1,0 +1,16 @@
+pip-tools
+slackclient
+slackeventsapi
+python-dateutil
+python-decouple
+psycopg2-binary
+requests
+sentry-sdk
+celery[redis]
+dj-database-url
+django_log_formatter_ecs
+django
+djangorestframework
+django-environ
+whitenoise
+waitress
