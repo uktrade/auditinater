@@ -12,7 +12,6 @@ jobs:
         environment:
             REDIS_URL: redis://localhost/
             DATABASE_URL: postgresql://service:service@localhost:5432/service
-            DEBUG_ENABLED: True
             DJANGO_SETTINGS_MODULE: auditinater.settings
             SECRET_KEY: c0b395ac13212cb5251c5f55eab9ed8a518ce7793c9971076153860bab4e0290
             ALLOWED_HOSTS: localhost,localhost:8000
