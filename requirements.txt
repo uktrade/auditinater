@@ -26,12 +26,6 @@ chardet==4.0.0
     # via
     #   aiohttp
     #   requests
-click-didyoumean==0.0.3
-    # via celery
-click-plugins==1.1.1
-    # via celery
-click-repl==0.1.6
-    # via celery
 click==7.1.2
     # via
     #   celery
@@ -40,18 +34,24 @@ click==7.1.2
     #   click-repl
     #   flask
     #   pip-tools
+click-didyoumean==0.0.3
+    # via celery
+click-plugins==1.1.1
+    # via celery
+click-repl==0.1.6
+    # via celery
 dj-database-url==0.5.0
     # via -r requirements.in
+django==3.2.4
+    # via
+    #   -r requirements.in
+    #   djangorestframework
 django-environ==0.4.5
     # via -r requirements.in
 django-ipware==3.0.2
     # via django-log-formatter-ecs
 django-log-formatter-ecs==0.0.5
     # via -r requirements.in
-django==3.2.2
-    # via
-    #   -r requirements.in
-    #   djangorestframework
 djangorestframework==3.12.4
     # via -r requirements.in
 flask==1.1.2
