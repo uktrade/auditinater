@@ -9,7 +9,7 @@ sentry-sdk
 celery[redis]
 dj-database-url
 django_log_formatter_ecs
-django
+django==3.2.5
 djangorestframework
 django-environ
 whitenoise
