@@ -42,7 +42,7 @@ click-repl==0.2.0
     # via celery
 dj-database-url==0.5.0
     # via -r requirements.in
-django==3.2.12
+django==3.2.13
     # via
     #   -r requirements.in
     #   djangorestframework
@@ -129,7 +129,7 @@ vine==5.0.0
     #   amqp
     #   celery
     #   kombu
-waitress==2.0.0
+waitress>=2.1.1
     # via -r requirements.in
 wcwidth==0.2.5
     # via prompt-toolkit
