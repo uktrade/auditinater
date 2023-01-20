@@ -15,3 +15,5 @@ django-environ
 whitenoise
 waitress
 
+# Dependabot fixes
+certifi==2022.12.07
