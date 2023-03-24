@@ -3,7 +3,7 @@ python-dateutil
 python-decouple
 psycopg2-binary
 requests
-sentry-sdk
+sentry-sdk==1.14.0
 celery[redis]==5.2.2
 dj-database-url
 django_log_formatter_ecs
