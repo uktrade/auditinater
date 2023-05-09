@@ -6,7 +6,7 @@ requests
 sentry-sdk==1.14.0
 dj-database-url
 django_log_formatter_ecs
-django==4.1.7
+django==4.1.9
 djangorestframework
 django-environ
 whitenoise
